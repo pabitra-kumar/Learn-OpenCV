@@ -6,11 +6,11 @@ import numpy as np
 
 
 people = []
-for i in os.listdir(r'C:\Users\pabit\Desktop\Web Development\Learning projects\Learn-openCV\Resources\Faces\train'):
+for i in os.listdir(r'..\Resources\Faces\train'):
     people.append(i)
 print(people)
 
-DIR = r'C:\Users\pabit\Desktop\Web Development\Learning projects\Learn-openCV\Resources\Faces\train'
+DIR = r'..\Resources\Faces\train'
 
 haar_cascade = cv.CascadeClassifier('haar_face.xml')
 
